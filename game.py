@@ -197,3 +197,6 @@ while True:
     clock.tick(60)
     # lo mismo que la otra de arriba pero por si acaso no la quites
     pygame.display.update()
+
+
+#Este es un comentario de prueba de la 
