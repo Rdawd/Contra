@@ -47,3 +47,4 @@ class Weapon():
 
         self.shape.centerx = jugador.shape.centerx
         self.shape.centery = jugador.shape.centery
+        
