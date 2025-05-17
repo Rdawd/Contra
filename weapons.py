@@ -2,46 +2,48 @@ import pygame
 
 class Weapon():
     def __init__(self, imagenes_arma):
-        self.animaciones = imagenes_arma  # Lista recibida desde fuera
+        self.animaciones = imagenes_arma
         self.frame_index = 0
         self.update_time = pygame.time.get_ticks()
         self.flip = False
-        
-        # Imagen inicial
+
         self.image = self.animaciones[0]
         self.shape = self.image.get_rect()
+
+        # Salto como animación temporal
+        self.modo_temporal = False
+        self.tiempo_inicio_modo = 0
+        self.duracion_modo_ms = 200  # tiempo que dura la animación de salto
 
     def dibujar(self, interfaz):
         interfaz.blit(self.image, self.shape)
 
-    def update(self, jugador):
-        # Actualiza la animación del arma
-        cooldown_aniamacion = 150
+    def activar_modo_temporal(self):
+        self.modo_temporal = True
+        self.tiempo_inicio_modo = pygame.time.get_ticks()
+        self.frame_index = 0
+        self.update_time = pygame.time.get_ticks()
 
-        if pygame.time.get_ticks() - self.update_time >= cooldown_aniamacion:
+    def update(self, jugador):
+        cooldown_animacion = 150
+
+        # Animación de salto temporal
+        if self.modo_temporal:
+            tiempo_actual = pygame.time.get_ticks()
+            if tiempo_actual - self.tiempo_inicio_modo >= self.duracion_modo_ms:
+                self.modo_temporal = False  # Termina modo salto
+            # NO hacemos return aquí, dejamos que se actualice la imagen
+
+        # Animación normal (frame a frame)
+        if pygame.time.get_ticks() - self.update_time >= cooldown_animacion:
             self.frame_index = (self.frame_index + 1) % len(self.animaciones)
             self.update_time = pygame.time.get_ticks()
 
-        # Frame actual
         self.image = self.animaciones[self.frame_index]
 
-        
         self.flip = jugador.flip
-
-        # Aplica el flip si es necesario
         if self.flip:
             self.image = pygame.transform.flip(self.image, True, False)
 
-        # Posición centrada en el jugador
         self.shape.centerx = jugador.shape.centerx
         self.shape.centery = jugador.shape.centery
-
-    # Ya no necesitas esta función a menos que la uses para algo más
-    def movimiento(self, delta_x, delta_y):
-        if delta_x < 0:
-            self.flip = True
-        if delta_x > 0:
-            self.flip = False
-
-        self.shape.x += delta_x
-        self.shape.y += delta_y

@@ -65,7 +65,15 @@ for i in range(1):
     animaciones_agachado.append(escalar_img(imagen, constantes.SCALA_PERSONAJE))
 
 apuntar_agachado = Weapon(animaciones_agachado)   
-        
+
+        #saltando
+        # agachado
+animaciones_saltando = []
+for i in range(1):
+    imagen = pygame.image.load(f"Recursos//Sprites//Bill_y_Lance//Bill(azul)//salto_bill//salto_{i}.png").convert_alpha()
+    animaciones_saltando.append(escalar_img(imagen, constantes.SCALA_PERSONAJE))
+
+saltar = Weapon(animaciones_saltando)           
         
         
         
@@ -81,7 +89,8 @@ diccionario_armas = {
     "derecha": apuntar_derecha,
     "derecharecto": apuntar_derecha_recto,
     "derechaabajo": apuntar_derecha_abajo,
-    "abajo": apuntar_agachado
+    "abajo": apuntar_agachado,
+    "saltar": saltar
     # puedes agregar más direcciones aquí
 }
 
@@ -102,9 +111,14 @@ tecla_l_presionada = False
 tecla_j_presionada = False
 tecla_k_presionada = False
 tecla_m_presionada = False
+tecla_espacio_presionada = False
+
+
 
 # Esto permite crear la variable clock que determina los fps a los que se mueve el juego para no saturar la maquina
 clock = pygame.time.Clock()
+
+ultima_direccion_arma = "derecharecto"
 while True:
 
     # El color screen.fill hace que cada frame que se mueve sustituya por el color del fondo
@@ -128,9 +142,13 @@ while True:
     jugador.update()
 
     # Lógica para apuntar en diferentes direcciones
+    arma_salto = diccionario_armas["saltar"]
+
     
     if tecla_m_presionada and tecla_l_presionada:
         direccion_apuntado = "derechaabajo"
+    elif tecla_espacio_presionada:
+        direccion_apuntado = "saltar"
     elif tecla_i_presionada and tecla_l_presionada:
         direccion_apuntado = "derecha"
     elif tecla_i_presionada:
@@ -144,11 +162,25 @@ while True:
     print("Dirección de apuntado:", direccion_apuntado)
 
     # Dibujamos el arma si hay direccion de apuntado
-    if direccion_apuntado in diccionario_armas:
-        diccionario_armas[direccion_apuntado].update(jugador)
-        diccionario_armas[direccion_apuntado].dibujar(screen)
+    arma_actual = diccionario_armas.get(direccion_apuntado)
+
+    # Verifica si el arma del salto está activa
+    arma_salto = diccionario_armas["saltar"]
+    if arma_salto.modo_temporal:
+        arma_salto.update(jugador)
+        arma_salto.dibujar(screen)
     else:
-        jugador.draw(screen)
+        # Si hay dirección actual, actualiza la última usada
+        if direccion_apuntado:
+            ultima_direccion_arma = direccion_apuntado
+
+        # Usa la última arma usada si no hay nueva dirección
+        arma_a_dibujar = diccionario_armas.get(ultima_direccion_arma)
+        if arma_a_dibujar:
+            arma_a_dibujar.update(jugador)
+            arma_a_dibujar.dibujar(screen)
+        else:
+            jugador.draw(screen)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -172,6 +204,12 @@ while True:
                 tecla_m_presionada = True
             if event.key == pygame.K_k:
                 tecla_k_presionada = True
+            if event.key == pygame.K_SPACE:
+                if not diccionario_armas["saltar"].modo_temporal:  # <--- SOLO activa si no está activo
+                    tecla_espacio_presionada = True
+                    diccionario_armas["saltar"].activar_modo_temporal()
+                
+
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_a:
@@ -190,6 +228,18 @@ while True:
                 tecla_m_presionada = False
             if event.key == pygame.K_k:
                 tecla_k_presionada = False
+            if event.key == pygame.K_SPACE:
+                tecla_espacio_presionada = False
+            
+
+        
+        
+        
+
+
+
+    
+            
 
     # hace que se actualice la pantalla para mostrar la nueva imagen y no se quede estática
     pygame.display.update()
@@ -199,4 +249,3 @@ while True:
     pygame.display.update()
 
 
-#Este es un comentario de prueba de la 
