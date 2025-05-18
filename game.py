@@ -110,12 +110,12 @@ saltar = Weapon(animaciones_saltando)
         
 
 # 50, 50 es el lugar donde esta apareciendo el  o jugador personaje el cual se esta creando en personajes y luego lo importo. Tengo que igualarlo a una variable de aca para que funcione sin problemas
-jugador = Personaje(50, 50, animaciones_sin_apuntar)
+jugador = Personaje(100, 225, animaciones_sin_apuntar)
 
 background = pygame.image.load("Recursos//Sprites//Stage_1//NES - Contra - Stage 1.png").convert()
 screen.blit(background, (0, 0))
 
-# Diccionario de armas para diferentes direcciones
+
 diccionario_armas = {
     "arriba": apuntar_arriba,
     "derecha": apuntar_derecha,
@@ -148,6 +148,15 @@ tecla_espacio_presionada = False
 ninguna_tecla_presionada = False
 
 
+arriba = False
+agachado = False
+posicion_original_y = jugador.shape.y  
+posicion_original_x = jugador.shape.x
+
+posicion_original_y_arriba = jugador.shape.y  
+posicion_original_x_arriba = jugador.shape.x
+
+
 
 # Esto permite crear la variable clock que determina los fps a los que se mueve el juego para no saturar la maquina
 clock = pygame.time.Clock()
@@ -175,11 +184,24 @@ while True:
         delta_y = -constantes.VELOCIDAD
     if mover_abajo == True:
         delta_y = constantes.VELOCIDAD
+    if jugador.shape.left < 50:
+        jugador.shape.left = 50
+    if jugador.shape.right > constantes.ANCHO - 10:
+        jugador.shape.right = constantes.ANCHO - 10
+        
+    
+    if agachado:
+        jugador.shape.y = posicion_original_y + 20
+    else:
+        jugador.shape.y = posicion_original_y 
+    
+
     # Aqui se le reemplaza los valores de x y y al movimiento
     jugador.movimiento(delta_x, delta_y)
     
     # mueve el fondo con el jugador con el problema de que si voy a la izquierda se pone por 2 la velocidad y no se por que, tiene que ver con la class personajes y no aqui
     if mover_derecha == False:
+    # and jugador.shape.x < self.screen_rect.right:
         if jugador.shape.centerx < constantes.ANCHO // 2:
             jugador.movimiento(delta_x, delta_y)
     else:
@@ -240,20 +262,32 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_a:
                 mover_izquierda = True
-            if event.key == pygame.K_w:
-                mover_arriba = True
-            if event.key == pygame.K_s:
-                mover_abajo = True
+            # if event.key == pygame.K_w:
+            #     mover_arriba = True
+            # if event.key == pygame.K_s:
+            #     mover_abajo = True
             if event.key == pygame.K_d:
                 mover_derecha = True
             if event.key == pygame.K_i:
                 tecla_i_presionada = True
+                if not arriba:
+                    posicion_original_y_arriba = jugador.shape.y 
+                    jugador.shape.y -= 20
+                    arriba = True
             if event.key == pygame.K_l:
                 tecla_l_presionada = True
             if event.key == pygame.K_m:
                 tecla_m_presionada = True
             if event.key == pygame.K_k:
+                # posicion_original_y = jugador.shape.y 
+                # posicion_original_x = jugador.shape.x
+                # jugador.shape.y +=20
+                # Personaje = Personaje(posicion_original_x , posicion_original_y , animaciones_sin_apuntar)
                 tecla_k_presionada = True
+                if not agachado:
+                    posicion_original_y = jugador.shape.y 
+                    jugador.shape.y += 20  
+                    agachado = True
             if event.key == pygame.K_SPACE:
                 if not diccionario_armas["saltar"].modo_temporal: 
                     tecla_espacio_presionada = True
@@ -274,14 +308,29 @@ while True:
                 mover_derecha = False
             if event.key == pygame.K_i:
                 tecla_i_presionada = False
+                if arriba:
+                    jugador.shape.y = jugador.shape.y  
+                    arriba = True
             if event.key == pygame.K_l:
                 tecla_l_presionada = False
+                if arriba:
+                    jugador.shape.y = posicion_original_y  
+                    arriba = True
             if event.key == pygame.K_m:
                 tecla_m_presionada = False
+                if arriba:
+                    jugador.shape.y = posicion_original_y  
+                    arriba = False
             if event.key == pygame.K_k:
                 tecla_k_presionada = False
+                if agachado:
+                    jugador.shape.y = jugador.shape.y
+                    agachado = True
             if event.key == pygame.K_SPACE:
                 tecla_espacio_presionada = False
+                if arriba:
+                    jugador.shape.y = posicion_original_y  
+                    arriba = False
             
             
 
