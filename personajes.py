@@ -9,10 +9,10 @@ class Personaje():
         self.flip = False
         
         self.animaciones = animaciones_sin_apuntar
-        # imagen de la animacion que se esta mostrando actualmente
+        # imagen de la animacion que se esta mostrando actualmente o sea la inicial, haciendo que siempre regrese a la inicial
         self.frame_index = 0
         
-        # Se almacena la hora en milisegundos desde que se inicia 
+        # Se almacena la hora en milisegundos desde que se inicia para poder controlar la velocidad de las imagenes 
         self.update_time = pygame.time.get_ticks()
         
         # determinas el shape o la forma que vas a crear, (coordenada, coordenada, tamaño, tamaño) de aqui saco x y 
@@ -38,7 +38,7 @@ class Personaje():
         interfaz.blit(imagen_flip,self.shape)
         
     # Esta linea la usaremos para ver las colisiones del personaje cuando esten las plataformas 
-        pygame.draw.rect(interfaz, (255, 255, 0), self.shape, width=1)
+        # pygame.draw.rect(interfaz, (255, 255, 0), self.shape, width=1)
         
         
     def movimiento(self, delta_x, delta_y):
