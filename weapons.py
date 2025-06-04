@@ -5,15 +5,13 @@ class Weapon():
         self.animaciones = imagenes_arma
         self.frame_index = 0
         self.update_time = pygame.time.get_ticks()
-        self.flip = False
 
         self.image = self.animaciones[0]
         self.shape = self.image.get_rect()
 
-        # Salto como animación temporal
         self.modo_temporal = False
         self.tiempo_inicio_modo = 0
-        self.duracion_modo_ms = 200  # tiempo que dura la animación de salto
+        self.duracion_modo_ms = 200  # duración de la animación temporal
 
     def dibujar(self, interfaz):
         interfaz.blit(self.image, self.shape)
@@ -27,24 +25,18 @@ class Weapon():
     def update(self, jugador):
         cooldown_animacion = 150
 
-        # Animación de salto temporal
         if self.modo_temporal:
             tiempo_actual = pygame.time.get_ticks()
             if tiempo_actual - self.tiempo_inicio_modo >= self.duracion_modo_ms:
-                self.modo_temporal = False  # Termina modo salto
-            # NO hacemos return aquí, dejamos que se actualice la imagen
+                self.modo_temporal = False
 
-        # Animación normal (frame a frame)
         if pygame.time.get_ticks() - self.update_time >= cooldown_animacion:
             self.frame_index = (self.frame_index + 1) % len(self.animaciones)
             self.update_time = pygame.time.get_ticks()
 
+        
         self.image = self.animaciones[self.frame_index]
 
-        self.flip = jugador.flip
-        if self.flip:
-            self.image = pygame.transform.flip(self.image, True, False)
-
+        
         self.shape.centerx = jugador.shape.centerx
         self.shape.centery = jugador.shape.centery
-        

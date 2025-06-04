@@ -1,0 +1,20 @@
+Paso 1: Darle permisos de ejecución
+
+1. Abre la Terminal.
+2. Navega a la carpeta del juego. 
+Por ejemplo:
+cd ~/Documents/JUEGO_CONTRA
+
+2: Escribe:
+
+chmod +x game.py
+
+3. En la Terminal, dale permisos de ejecución al archivo `.command`:
+
+chmod +x ejecutar_juego.command
+
+---
+ Paso 4: Ejecutar el juego
+
+Ejecutar el archivo .command
+

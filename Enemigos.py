@@ -20,10 +20,12 @@ class Enemigo:
         self.image = self.animaciones[self.frame_index]
         
     def draw(self, screen):
-        imagen_actual = pygame.transform.flip(self.image, False,False) 
+        if self.alive:  # Solo se dibuja si está vivo
+            image = pygame.transform.flip(self.image, False, False) 
+            screen.blit(image, self.shape)
+            pygame.draw.rect(screen, (255, 255, 0), self.shape, width=1)
         
-        screen.blit(imagen_actual, self.shape)
-        pygame.draw.rect(screen, (255, 255, 0), self.shape, width=1)
+        
     def movimiento(self, delta_x, delta_y):
         self.shape.x += delta_x
         self.shape.y += delta_y
