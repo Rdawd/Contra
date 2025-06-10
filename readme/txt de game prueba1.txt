@@ -1,0 +1,478 @@
+  
+   # Cargar y escalar la imagen del disparo enemigo
+    imagen_bala_enemiga = pygame.image.load("Recursos/Sprites/Disparos/disparo_basico_F.png").convert_alpha()
+    imagen_bala_enemiga = pygame.transform.scale(imagen_bala_enemiga, (20, 10))
+    
+    # Cargar y escalar sprite del boss usando función propia (escala_img)
+    boss_sprite = pygame.image.load("Recursos/Sprites/Defensa_boss stage_1/NES - Contra - Defense Wall.png").convert_alpha()
+    boss_sprite = escalar_img(boss_sprite, constantes.SCALA_PERSONAJE)
+    balas_boss = pygame.sprite.Group()
+    
+    # Crear al boss
+    boss = Boss(
+        position=(10100, 200),
+        health=30,
+        sprite_image=boss_sprite,
+        animacion_explosion=animacion_explosion,
+        bullet_image=imagen_bala_enemiga,
+        projectiles_group=balas_boss
+    )
+        
+    
+    def cambiar_tipo_disparo(jugador, nuevo_tipo):
+        global sprites_disparo  # Aseguramos acceso al diccionario global de disparos
+        if nuevo_tipo in sprites_disparo:
+            jugador.tipo_disparo = nuevo_tipo  # Modificamos el atributo del jugador
+            print(f"Disparo cambiado a: {nuevo_tipo}")
+        else:
+            print(f"El tipo de disparo '{nuevo_tipo}' no existe.")
+
+    weapons_dict = {
+        "nada": nada,
+        "arriba": apuntar_arriba,
+        "derecha": apuntar_derecha,
+        "derecharecto": apuntar_derecha_recto,
+        "derechaabajo": apuntar_derecha_abajo,
+        "abajo": apuntar_agachado,
+        "saltar": saltar,
+        "izquierda": apuntar_izquierda,
+        "izquierda_arriba": apuntar_izquierda_izquierda,
+        "izquierda_abajo": apuntar_abajo_izquierda
+        
+    }
+
+    jugador = Personaje(100, 225, animaciones_sin_apuntar, weapons_dict, animaciones_saltando)
+    jugador.en_suelo = True
+    jugador.COYOTE_TIME_MAX = 150
+    jugador.coyote_timer = jugador.COYOTE_TIME_MAX
+
+    enemigo1 = Enemigos.Enemigo(100, 225, animaciones_enemigo)
+    
+    pygame.font.init()
+    hud_font = pygame.font.SysFont("Arial", 24)
+    TILE_ANCHO = 32
+    TILE_ALTO = 32
+    COLUMNAS_TILESET = 108
+    TILES_COLISIONABLES = [325, 648]
+
+    mapa = cargar_mapa_csv("Recursos/Sprites/Stage_1/stage1.csv")
+    tileset = pygame.image.load("Recursos/Sprites/Stage_1/NES - Contra - Stage 1.png").convert_alpha()
+
+    def crear_rectangulos_colision(mapa, tile_ancho, tile_alto):
+        rects = []
+        for y, fila in enumerate(mapa):
+            for x, tile_id in enumerate(fila):
+                if tile_id in TILES_COLISIONABLES:
+                    rect = pygame.Rect(x * tile_ancho, y * tile_alto, tile_ancho, tile_alto)
+                    rects.append(rect)
+        return rects
+ 
+    
+
+    altura_enemigo = 32  
+   
+    rects_colision = crear_rectangulos_colision(mapa, TILE_ANCHO, TILE_ALTO)
+    imagen_bala = sprites_disparo["bala_1"]
+    scroll_x = 0
+    gravedad = 1
+    clock = pygame.time.Clock()
+    run = True
+    mover_derecha = False
+    mover_izquierda = False
+    # Zona de victoria definida manualmente 
+    zona_victoria = pygame.Rect(9750, 400, 64, 64)
+    disparos = pygame.sprite.Group()
+    muertos = 0
+    explosiones = [] 
+    jugador.vida = 3
+    
+    # Definir la animación del power‑up (lista con una o varias imágenes)
+    animaciones_power_up = [powerup_resources["R"], powerup_resources["S"]]
+    
+    # Definir la lista de instancias de power‑ups
+    power_ups = [] 
+    
+    def draw_health_bar(surface, world_x, world_y, width, height, current_health, max_health, scroll_x=0):
+        """
+        Dibuja una barra de vida en función de la posición en el mundo (world_x, world_y).
+        Se ajusta automáticamente restando scroll_x para obtener la posición en pantalla.
+        """
+        # Convertir las coordenadas del mundo a coordenadas en pantalla
+        x_on_screen = world_x - scroll_x
+        y_on_screen = world_y
+    
+        # Fondo de la barra (por ejemplo, en rojo)
+        background_rect = pygame.Rect(x_on_screen, y_on_screen, width, height)
+        pygame.draw.rect(surface, (255, 0, 0), background_rect)
+    
+        # Ancho de la barra verde (vida actual)
+        health_width = int(width * (current_health / max_health))
+        health_rect = pygame.Rect(x_on_screen, y_on_screen, health_width, height)
+        pygame.draw.rect(surface, (0, 255, 0), health_rect)
+    
+    def generar_un_enemigo(rects_colision, altura_enemigo, animaciones_enemigo, jugador, enemigos_existentes):
+        # Define qué tan cerca debe estar el jugador para generar enemigos
+        distancia_maxima = 2000
+    
+        
+        posibles_posiciones = [rect for rect in rects_colision if abs(jugador.world_x - rect.x) < distancia_maxima]
+    
+        if posibles_posiciones:  # Solo generar si hay posiciones disponibles
+            rect_seleccionado = random.choice(posibles_posiciones)  # Elegir uno al azar
+    
+            # Verificar que no haya un bloque encima para evitar spawns dentro de paredes
+            hay_bloque_encima = any(
+                otro.left == rect_seleccionado.left and otro.top == rect_seleccionado.top - rect_seleccionado.height
+                for otro in rects_colision
+            )
+    
+            # Evitar duplicados basados en coordenada X
+            if not hay_bloque_encima and not any(enemigo.rect.x == rect_seleccionado.x for enemigo in enemigos_existentes):
+                x = rect_seleccionado.x
+                y = rect_seleccionado.y - altura_enemigo
+                enemigo = Enemigos.Enemigo(x, y, animaciones_enemigo)
+                enemigos_existentes.add(enemigo)
+    
+        return enemigos_existentes
+    enemigos = pygame.sprite.Group()
+    ultimo_spawn = pygame.time.get_ticks()
+    while run:
+        
+        
+        dt = clock.tick(60)
+        
+        tiempo_actual = pygame.time.get_ticks()
+
+        for enemigo in list(enemigos):
+            if enemigo.rect.right < scroll_x - 50:  
+                enemigos.remove(enemigo)
+        
+        # Generación de 1 enemigo cada 10 segundos
+        if tiempo_actual - ultimo_spawn > 1000:  # 10 segundos
+            prev_count = len(enemigos)
+            enemigos = generar_un_enemigo(rects_colision, altura_enemigo, animaciones_enemigo, jugador, enemigos)
+            if len(enemigos) > prev_count:  # Solo reiniciar el temporizador si se creó un enemigo
+                ultimo_spawn = tiempo_actual
+ 
+        
+     
+        screen.fill((0, 0, 0))
+        dibujar_mapa(screen, mapa, tileset, TILE_ANCHO, TILE_ALTO, COLUMNAS_TILESET)
+        screen.blit(fondo, (-scroll_x, 0))
+        sonidos.inicio()
+
+        pos_pantalla_x = jugador.world_x - scroll_x
+        pos_pantalla_y = jugador.world_y
+        jugador.shape.topleft = (pos_pantalla_x, pos_pantalla_y)
+        # Dibuja la zona de victoria en rojo (ajustado al scroll)
+        zona_dibujo = zona_victoria.copy()
+        zona_dibujo.x -= scroll_x
+        pygame.draw.rect(screen, (255, 0, 0), zona_dibujo, 2)
+        jugador_mundo_rect = jugador.shape.copy()
+        jugador_mundo_rect.x = jugador.world_x
+        jugador_mundo_rect.y = jugador.world_y
+        if jugador_mundo_rect.colliderect(zona_victoria):
+            print("¡Ganaste!")
+            fade(screen)
+            pantalla_victoria()
+        if not jugador.alive:
+            pantalla_game_over(screen)
+            # Reiniciar el juego al regresar
+            fade(screen)
+            juego()  # Llama a la función de juego para reiniciar el nivel
+            return
+        if jugador.shape.top > constantes.ALTO:
+            print("El jugador cayó al vacío.")
+            jugador.alive = False
+        
+        if jugador.reloading:
+            ammo_text = "Recargando..."
+            color = (255, 0, 0)  # Rojo para indicar recarga
+        else:
+            ammo_text = f"Munición: {jugador.ammo_actual}/{jugador.ammo_max}"
+            color = (255, 255, 255)  # Blanco
+        
+        
+        
+        boss.update(jugador, DisparoEnemigo)
+        boss.draw(screen)
+        
+        balas_boss.update()
+        balas_boss.draw(screen)
+        
+        # Colisiones balas del boss con jugador
+        for bala in balas_boss:
+            if bala.rect.colliderect(jugador.rect):
+                print("Jugador recibe daño")
+                bala.kill()
+        hud_surface = hud_font.render(ammo_text, True, color)
+        # Ubica el HUD en la esquina superior izquierda, por ejemplo, en (20,20)
+        screen.blit(hud_surface, (20, 20))
+        
+        
+        teclas = pygame.key.get_pressed()
+        delta_x = 0
+        if teclas[pygame.K_d] or teclas[pygame.K_l] or teclas[pygame.K_RIGHT]:  # D o L para moverse a la derecha
+            delta_x = constantes.VELOCIDAD
+        elif teclas[pygame.K_a] or teclas[pygame.K_j] or teclas[pygame.K_LEFT]:  # A o J para moverse a la izquierda
+            delta_x = -constantes.VELOCIDAD
+
+        # Actualiza el coyote timer
+        if jugador.en_suelo:
+            jugador.coyote_timer = jugador.COYOTE_TIME_MAX
+        else:
+            jugador.coyote_timer -= dt
+            jugador.coyote_timer = max(0, jugador.coyote_timer)
+
+        puede_saltar = (jugador.en_suelo or jugador.coyote_timer > 0) and jugador.vel_y >= 0
+        if teclas[pygame.K_SPACE] and puede_saltar:
+            jugador.vel_y = -20
+            jugador.en_suelo = False
+            jugador.saltando = True
+            jugador.coyote_timer = 0
+
+        jugador.vel_y += gravedad
+        jugador.vel_y = min(jugador.vel_y, 10)
+        delta_y = jugador.vel_y
+
+        jugador.movimiento(delta_x, delta_y, rects_colision)
+
+        if jugador.world_x - scroll_x > constantes.ANCHO // 2:
+            scroll_x += delta_x
+        elif jugador.world_x - scroll_x < constantes.ANCHO // 2:
+            scroll_x += delta_x
+        else:
+            jugador.world_x += delta_x
+        jugador.shape.x = jugador.world_x - scroll_x
+
+        if jugador.shape.left < 50:
+            jugador.shape.left = 50
+            jugador.world_x = jugador.shape.x + scroll_x
+        if jugador.shape.right > constantes.ANCHO - 10:
+            jugador.shape.right = constantes.ANCHO - 10
+            jugador.world_x = jugador.shape.x + scroll_x
+        if jugador.shape.bottom > constantes.ALTO:
+            jugador.alive = False
+
+      
+
+        for rect in rects_colision:
+            rect_debug = rect.copy()
+            rect_debug.x -= scroll_x
+            # pygame.draw.rect(screen, (0, 0, 255), rect_debug, 2)
+
+        direccion_apuntado = None
+        if teclas[pygame.K_UP] and teclas[pygame.K_RIGHT]:
+            direccion_apuntado = "derecha"
+        elif teclas[pygame.K_UP] and teclas[pygame.K_LEFT]:
+            direccion_apuntado = "izquierda_arriba"
+        elif teclas[pygame.K_DOWN] and teclas[pygame.K_LEFT]:
+            direccion_apuntado = "izquierda_abajo"
+        elif teclas[pygame.K_UP]:
+            direccion_apuntado = "arriba"
+        elif teclas[pygame.K_RIGHT]:
+            direccion_apuntado = "derecharecto"
+        elif teclas[pygame.K_LEFT]:
+            direccion_apuntado = "izquierda"
+        elif teclas[pygame.K_DOWN]:
+            # Mientras esté agachado, forzamos la dirección hacia la derecha
+            direccion_apuntado = "abajo"
+            jugador.flip = False  # Mira a la derecha
+        elif teclas[pygame.K_SPACE]:
+            direccion_apuntado = "saltar"
+        else:
+            direccion_apuntado = None
+
+        if not jugador.saltando:
+            if direccion_apuntado:
+                jugador.set_apuntado(True, direccion_apuntado)
+            else:
+                jugador.set_apuntado(False)
+                
+                
+        explosion_actual = None
+        jugador.update()
+        enemigos.update(rects_colision) # Actualiza animaciones y lógica
+        for enemigo in enemigos:
+            screen.blit(enemigo.image, (enemigo.rect.x - scroll_x, enemigo.rect.y))
+            draw_health_bar(screen, enemigo.rect.x, enemigo.rect.y - 10, 40, 5, enemigo.vida, 3, scroll_x)
+        
+        
+        
+            # Colisión bala-enemigo
+        for bala in list(disparos):  
+            for enemigo in list(enemigos):
+                if bala.rect.colliderect(enemigo.rect) and enemigo.alive:
+                    enemigo.vida -= bala.daño
+                    disparos.remove(bala)
+                    if enemigo.vida <= 0:
+                       
+                      
+                        enemigo.alive = False
+                        enemigos.remove(enemigo)
+                        muertos += 1
+                        if random.random() < 0.10:
+                            power_up = PowerUp(enemigo.rect.x, enemigo.rect.y, animaciones_power_up)
+                            power_ups.append(power_up)
+                    break  
+    
+        for enemigo in list(enemigos):
+            
+            enemy_screen_rect = enemigo.rect.copy()
+            enemy_screen_rect.x -= scroll_x
+           
+            if jugador.shape.colliderect(enemy_screen_rect) and enemigo.alive:
+              
+                jugador.vida -= 1
+             
+                explosiones.append(Explosion(enemy_screen_rect.centerx,enemy_screen_rect.centery,animacion_explosion))
+             
+                enemigo.alive = False
+                enemigos.remove(enemigo)
+                
+              
+                if jugador.vida <= 0:
+                    
+                    pantalla_game_over(screen)
+                    juego()
+                    fade(screen)
+             
+                break
+    
+      
+        for explosion in list(explosiones):
+            explosion.update()
+            explosion.draw(screen)
+            if not explosion.activa:  # Cuando la animación termina
+                explosiones.remove(explosion)
+        for powerup in list(power_ups):
+            powerup.update(rects_colision)
+            powerup.draw(screen, scroll_x)
+        
+            powerup_screen_rect = powerup.shape.copy()
+            powerup_screen_rect.x -= scroll_x  # Ajusta por el scroll
+        
+            if jugador.shape.colliderect(powerup_screen_rect):
+                cambiar_tipo_disparo(jugador, "bala_2") # Aquí llamamos al método correctamente
+                power_ups.remove(powerup)
+            
+            
+        
+            
+        jugador.draw(screen, scroll_x)
+        draw_health_bar(screen, jugador.world_x, jugador.world_y - 30, 50, 6, jugador.vida, jugador.vida_maxima, scroll_x)
+        disparos.update()
+        
+
+        for disparo in disparos:
+            screen.blit(disparo.image, (disparo.rect.x - scroll_x, disparo.rect.y))
+        # enemigo1.draw(screen)
+        # suelta_power_ups.draw(screen)
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+        
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_c and direccion_apuntado and not jugador.saltando:
+                    if jugador.reloading:
+                        print("El arma se está recargando.")
+                        continue  # No se procesa el disparo
+        
+                    # Obtiene el tiempo actual
+                    tiempo_actual = pygame.time.get_ticks()
+                    if tiempo_actual - jugador.last_shot_time < jugador.fire_rate:
+                        print("Esperando cooldown de disparo")
+                        continue
+        
+                    jugador.last_shot_time = tiempo_actual
+                    sonidos.balas()
+                    teclas = pygame.key.get_pressed()
+                    direccion = None
+        
+                    # Determinación de la dirección, ajusta según necesites:
+                    if teclas[pygame.K_UP] and teclas[pygame.K_RIGHT]:
+                        direccion = "derecha"
+                    elif teclas[pygame.K_UP] and teclas[pygame.K_LEFT]:
+                        direccion = "izquierda_arriba"
+                    elif teclas[pygame.K_UP]:
+                        direccion = "arriba"
+                    elif teclas[pygame.K_RIGHT]:
+                        direccion = "derecharecto"
+                    elif teclas[pygame.K_DOWN] and teclas[pygame.K_LEFT]:
+                        direccion = "izquierda_abajo"
+                    elif teclas[pygame.K_LEFT]:
+                        direccion = "izquierda"
+                    elif teclas[pygame.K_DOWN]:
+                        direccion = "abajo"
+                    else:
+                        direccion = "derecharecto"  # Valor por defecto
+        
+                    mirar_izquierda = jugador.flip
+        
+                    # Cálculo de offsets (los ajustas según lo que necesites)
+                    if direccion in ["derecha", "derecharecto", "derechaabajo"]:
+                        offset_x = 40 if not mirar_izquierda else -10
+                        offset_y = 10
+                    elif direccion in ["izquierda", "izquierda_arriba", "izquierda_abajo"]:
+                        offset_x = -10 if mirar_izquierda else 40
+                        offset_y = 10
+                    elif direccion == "arriba":
+                        offset_x = 20
+                        offset_y = -10
+                    elif direccion == "abajo":
+                        offset_x = 20
+                        offset_y = 15
+                    else:
+                        offset_x = 20
+                        offset_y = 10
+        
+                    # Calcula la posición del disparo usando coordenadas del mundo
+                    bala_x = jugador.world_x + offset_x
+                    bala_y = jugador.world_y + offset_y
+                    
+                    # Determinamos el costo de munición según el tipo de disparo
+                    cost = 2 if jugador.tipo_disparo == "bala_2" else 1
+                    if jugador.ammo_actual >= cost:
+                        nuevo_disparo = Disparo(
+                            bala_x,
+                            bala_y,
+                            direccion,
+                            sprites_disparo[jugador.tipo_disparo],
+                            tipo=jugador.tipo_disparo,
+                            mirar_izquierda=mirar_izquierda
+                        )
+                        disparos.add(nuevo_disparo)
+                        jugador.ammo_actual -= cost
+                        print("Balas restantes:", jugador.ammo_actual)
+                    else:
+                        jugador.reloading = True
+                        jugador.last_reload_time = pygame.time.get_ticks()
+                        print("Recargando...")
+            
+                    jugador.set_apuntado(True, direccion)
+               
+                
+            if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_d:
+                        mover_derecha = True
+                    if event.key == pygame.K_a:
+                        mover_izquierda = True
+            if event.type == pygame.KEYUP:
+                    if event.key == pygame.K_d:
+                        mover_derecha = False
+                    if event.key == pygame.K_a:
+                        mover_izquierda = False
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                    sonidos.cursor()
+                    mouse_pos = pygame.mouse.get_pos()
+                    boton_regresar = pygame.Rect(50, 700, 250, 50)
+                    if boton_regresar.collidepoint(mouse_pos):
+                        print("¡Botón presionado!")
+                        fade(screen)
+                        inicio()
+        sonidos.tema_nvl()
+        pygame.display.update()
+    
+clock = pygame.time.Clock()

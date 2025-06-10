@@ -23,7 +23,7 @@ class Weapon():
         self.update_time = pygame.time.get_ticks()
 
     def update(self, jugador):
-        cooldown_animacion = 150
+        cooldown_animacion = 100
 
         if self.modo_temporal:
             tiempo_actual = pygame.time.get_ticks()

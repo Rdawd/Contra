@@ -1,0 +1,1126 @@
+('C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+ '1\\JUEGO CONTRA\\dist\\game_modificado.exe',
+ False,
+ False,
+ False,
+ ['C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+  '1\\JUEGO CONTRA\\icono.ico'],
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+ '1\\JUEGO CONTRA\\build\\game_modificado\\game_modificado.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('game_modificado',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\game_modificado.py',
+   'PYSOURCE'),
+  ('python312.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\python312.dll',
+   'BINARY'),
+  ('libpng16-16.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('zlib1.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('freetype.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('libopusfile-0.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libopusfile-0.dll',
+   'BINARY'),
+  ('libjpeg-9.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('libmodplug-1.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libmodplug-1.dll',
+   'BINARY'),
+  ('libtiff-5.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libtiff-5.dll',
+   'BINARY'),
+  ('libogg-0.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('portmidi.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\portmidi.dll',
+   'BINARY'),
+  ('libopus-0.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('libwebp-7.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libwebp-7.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('pygame\\imageext.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\imageext.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\scrap.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\scrap.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\mixer.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer_music.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\mixer_music.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\font.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\font.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\_freetype.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\_freetype.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\transform.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\transform.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\time.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\time.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelarray.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\pixelarray.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mask.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\mask.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surface.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\surface.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelcopy.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\pixelcopy.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mouse.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\mouse.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\key.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\key.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\joystick.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\joystick.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\image.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\image.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\event.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\event.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\draw.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\draw.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\display.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\display.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\math.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\math.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\bufferproxy.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\bufferproxy.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\color.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\color.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surflock.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\surflock.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rwobject.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\rwobject.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rect.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\rect.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\constants.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\constants.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\base.cp312-win_amd64.pyd',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\base.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('pygame\\zlib1.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('pygame\\SDL2.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('pygame\\libogg-0.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('pygame\\libopus-0.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('pygame\\libjpeg-9.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('pygame\\libpng16-16.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('pygame\\SDL2_image.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('pygame\\SDL2_mixer.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('pygame\\SDL2_ttf.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('pygame\\freetype.dll',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('Recursos\\Mapa_Prueba_Shi.csv',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Mapa_Prueba_Shi.csv',
+   'DATA'),
+  ('Recursos\\Sonidos\\Shootledaaunenemigo\\391660__jeckkech__projectile.wav',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\Shootledaaunenemigo\\391660__jeckkech__projectile.wav',
+   'DATA'),
+  ('Recursos\\Sonidos\\Shootledaaunenemigo\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\Shootledaaunenemigo\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\Victoria\\brass-fanfare-with-timpani-and-winchimes-reverberated-146260.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\Victoria\\brass-fanfare-with-timpani-and-winchimes-reverberated-146260.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\bossfinal\\boom-sfx-318827.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\bossfinal\\boom-sfx-318827.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\bossfinal\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\bossfinal\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\death_personajes\\8-bit-explosion-95847.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\death_personajes\\8-bit-explosion-95847.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\death_personajes\\from 8 bits explosion.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\death_personajes\\from 8 bits '
+   'explosion.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\death_personajes\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\death_personajes\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\death_personajes\\retro-game-sfx-explosion-104422.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\death_personajes\\retro-game-sfx-explosion-104422.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\game_over\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\game_over\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\game_over\\videogame-death-sound-43894.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\game_over\\videogame-death-sound-43894.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\pantalla_de_inicio\\1or2players\\arcade-ui-18-229517.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\pantalla_de_inicio\\1or2players\\arcade-ui-18-229517.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\pantalla_de_inicio\\1or2players\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\pantalla_de_inicio\\1or2players\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\pantalla_de_inicio\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\pantalla_de_inicio\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\pantalla_de_inicio\\retro-synth-loop-128-41048.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\pantalla_de_inicio\\retro-synth-loop-128-41048.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\power_up\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\power_up\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\power_up\\retro-video-game-coin-pickup-38299.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\power_up\\retro-video-game-coin-pickup-38299.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\shoot\\from retro laser.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\shoot\\from retro laser.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\shoot\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\shoot\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\shoot\\retro-laser-1-236669.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\shoot\\retro-laser-1-236669.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\shoot\\shoot-6-81136.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\shoot\\shoot-6-81136.mp3',
+   'DATA'),
+  ('Recursos\\Sonidos\\tema_primer_stage\\from.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sonidos\\tema_primer_stage\\from.txt',
+   'DATA'),
+  ('Recursos\\Sonidos\\tema_primer_stage\\game-over-groove-306764.mp3',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sonidos\\tema_primer_stage\\game-over-groove-306764.mp3',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\agua_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\agua_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\agua_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\agua_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\45_grados_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\45_grados_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\90_grados_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\90_grados_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\agua_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\agua_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\derecha_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\agua\\disparos_en_agua\\derecha_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_agachado\\mov_agachado_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_agachado\\mov_agachado_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\izquierda\\mov_315_izquierda_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_315_derecha\\mov_315_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\izquierda\\mov_45_izquierda_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_45_derecha\\mov_45_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_90\\mov_apuntando_90_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_90\\mov_apuntando_90_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\izquierda\\mov_apuntando_izquierda_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_apuntando_bill\\mov_apuntando_dereha\\mov_apuntando_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_0_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_0_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_1_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_1_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_2_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_2_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_3_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_3_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_4_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mov_sin_apuntar_bill\\mov_4_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\mueres\\mueres_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\salto_bill\\salto_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\salto_bill\\salto_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\salto_bill\\salto_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Bill(azul)\\salto_bill\\salto_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\agua_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\agua_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\agua_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\agua_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\45_grados_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\45_grados_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\90_grados_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\90_grados_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\derecha_agua.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\agua\\disparos_en_agua\\derecha_agua.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_agachado\\mov_agachado_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_agachado\\mov_agachado_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_315_derecha\\mov_315_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_45_derecha\\mov_45_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_90\\mov_apuntando_90_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_90\\mov_apuntando_90_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_apuntando_lance\\mov_apuntando_dereha\\mov_apuntando_derecha_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_0_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_0_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_1_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_1_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_2_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_2_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_3_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_3_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_4_sin_apuntar.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mov_sin_apuntar_Lance\\mov_4_sin_apuntar.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\mueres\\mueres_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\salto_Lance\\salto_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\salto_Lance\\salto_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\salto_Lance\\salto_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\Lance(rojo)\\salto_Lance\\salto_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\caer_agua_ambos_personajes\\agua_splash.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\caer_agua_ambos_personajes\\agua_splash.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Bill_y_Lance\\todos_sprites\\NES - Contra - Bill & '
+   'Lance (1).png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Bill_y_Lance\\todos_sprites\\NES - '
+   'Contra - Bill & Lance (1).png',
+   'DATA'),
+  ('Recursos\\Sprites\\Defensa_boss stage_1\\NES - Contra - Defense Wall.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Defensa_boss stage_1\\NES - Contra - '
+   'Defense Wall.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_F.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_F.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_F.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_F.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_R.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_R.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_R.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_R.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S2.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S2.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S3.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S3.jpg',
+   'DATA'),
+  ('Recursos\\Sprites\\Disparos\\disparo_basico_S3.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Disparos\\disparo_basico_S3.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\NES - Contra - Enemies & Obstacles.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Enemigos\\NES - Contra - Enemies & '
+   'Obstacles.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_120 .png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_120 '
+   '.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_240.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_240.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_izquierda.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_izquierda.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_mitad_240.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_mitad_240.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_mitad_izquierda.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_no_se_mueven\\enemigo_mitad_izquierda.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_3.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_3.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_4.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Enemigos\\enemigos_que_si_se_mueven\\enemigo_4.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Inicio\\Completo_inicio\\NES - Contra - Title '
+   'Screens.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Inicio\\Completo_inicio\\NES - Contra '
+   '- Title Screens.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Inicio\\cursor_de_personaje\\cursor_de_personaje.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Inicio\\cursor_de_personaje\\cursor_de_personaje.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Inicio\\cursor_de_personaje\\cursor_de_personaje2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Inicio\\cursor_de_personaje\\cursor_de_personaje2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Inicio\\pantalla_inicial\\pantalla_inicial.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Inicio\\pantalla_inicial\\pantalla_inicial.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Inicio\\pantalla_inicial\\pantalla_inicial2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Inicio\\pantalla_inicial\\pantalla_inicial2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Stage_1\\NES - Contra - Stage 1 (1).png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Stage_1\\NES - Contra - Stage 1 '
+   '(1).png',
+   'DATA'),
+  ('Recursos\\Sprites\\Stage_1\\NES - Contra - Stage 1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Stage_1\\NES - Contra - Stage 1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Stage_1\\stage1..tsx',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Stage_1\\stage1..tsx',
+   'DATA'),
+  ('Recursos\\Sprites\\Stage_1\\stage1.csv',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Stage_1\\stage1.csv',
+   'DATA'),
+  ('Recursos\\Sprites\\Stage_1\\stage1.tmx',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Stage_1\\stage1.tmx',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\NES - Contra - Turrets.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Torretas\\NES - Contra - Turrets.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_10.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_10.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_11.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_11.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_12.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_12.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_3.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_3.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_4.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_4.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_5.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_5.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_6.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_6.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_7.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_7.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_8.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_8.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_9.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\abierta\\torreta_abierta_9.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\cerrada\\torreta_cerrada.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\Torretas\\cerrada\\torreta_cerrada.png',
+   'DATA'),
+  ('Recursos\\Sprites\\Torretas\\cerrada\\torreta_cerrada_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\Torretas\\cerrada\\torreta_cerrada_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_0.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_0.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_1.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_1.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_2.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_2.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_3.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_3.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_4.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_4.png',
+   'DATA'),
+  ('Recursos\\Sprites\\explosiones\\explosion_5.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\explosiones\\explosion_5.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\creditos\\creditos.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\interfaz\\creditos\\creditos.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\game_over\\Game_over_pantalla_1_player.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\game_over\\Game_over_pantalla_1_player.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\game_over\\Game_over_pantalla_2_player.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\game_over\\Game_over_pantalla_2_player.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\game_over\\player_1_game_over.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\game_over\\player_1_game_over.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\game_over\\player_2_game_over.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\game_over\\player_2_game_over.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\vidas_medalla\\player_1_lives_medal.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\vidas_medalla\\player_1_lives_medal.png',
+   'DATA'),
+  ('Recursos\\Sprites\\interfaz\\vidas_medalla\\player_2_lives_medal.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO '
+   'CONTRA\\Recursos\\Sprites\\interfaz\\vidas_medalla\\player_2_lives_medal.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\B.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\B.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\F.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\F.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\L.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\L.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\M.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\M.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\NES - Contra - Weapon Pickups.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\NES - Contra - Weapon '
+   'Pickups.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\R.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\R.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\S.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\S.png',
+   'DATA'),
+  ('Recursos\\Sprites\\powerups\\suelta_power_ups.png',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\Sprites\\powerups\\suelta_power_ups.png',
+   'DATA'),
+  ('Recursos\\letra\\OFL.txt',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\letra\\OFL.txt',
+   'DATA'),
+  ('Recursos\\letra\\PressStart2P-Regular.ttf',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\letra\\PressStart2P-Regular.ttf',
+   'DATA'),
+  ('Recursos\\letra\\controles.jpg',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\Recursos\\letra\\controles.jpg',
+   'DATA'),
+  ('pygame\\freesansbold.ttf',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\freesansbold.ttf',
+   'DATA'),
+  ('pygame\\pygame_icon.bmp',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pygame\\pygame_icon.bmp',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\USER\\Documents\\Uabcs\\Segundo semestre\\Programacion Pyhton '
+   '1\\JUEGO CONTRA\\build\\game_modificado\\base_library.zip',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1749533024,
+ [('runw.exe',
+   'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')],
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\python312.dll')
